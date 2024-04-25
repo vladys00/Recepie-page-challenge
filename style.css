@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(243, 229, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+ 
+    }
+
+h1, h2 {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr {
+   color: hsl(0, 0%, 89%); 
+}
+
+h1{
+    font-weight: bolder;
+}
+
+
+.br-head {
+    color: rgb(118, 62, 48);
+    font-weight: bolder;
+}
+
+
+.main_div {
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px;
+ 
+  
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    }
+
+.prep-div {
+    border-radius: 10px;
+    background-color:rgb(255, 247, 252) ;
+    padding: 10px;
+    font-size: smaller;
+
+}
+
+.purple-h2 {
+    color: rgb(97, 28, 56);
+    font-weight: bolder;
+    
+}
+
+.prep-div ul li::marker {
+    color: rgb(97, 28, 56);
+}
+
+.ingridients ul li::marker,
+.instructions ol li::marker {
+    color: rgb(118, 62, 48);
+}
+
+.instructions ol li::marker {
+    font-weight: bolder;
+}
+
+.instructions span {
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+  }
+  
+  tr {
+    border-bottom: 1px solid hsl(0, 0%, 89%); 
+
+  }
+  
+.align-left {
+    padding: 8px;
+    text-align: left; 
+    font-weight: bolder;
+    color: rgb(118, 62, 48);
+  }
+
+@media (max-width: 27rem) {
+    .main_div {
+        width: 95%;
+        padding: 30px;
+        margin: 10px;
+     
+     
+      
+    }
+
+}
+
+
